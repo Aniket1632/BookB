@@ -1,0 +1,86 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.step {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  grid-gap: 1rem;
+  grid-gap: 1rem;
+  gap: 1rem;
+  flex-direction: column;
+  /* width: 100%; */
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.bullet {
+  position: relative;
+  width: 3rem;
+  height: 3rem;
+  background-color: #c4c4c4;
+  border: 1px solid #c4c4c4;
+  color: #000;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.step p {
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.bullet::before,
+.bullet::after {
+  position: absolute;
+  content: '';
+  bottom: 11px;
+  right: 25px;
+  height: 6px;
+  width: 90px;
+  background: #c4c4c4;
+  z-index: -1; 
+}
+
+.step:first-child .bullet::before,
+.step:first-child .bullet::after {
+  display: none;
+}
+
+.Complete .bullet {
+  width: 3rem;
+  height: 3rem;
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border: 1px solid #0000;
+}
+
+.Complete .bullet::after {
+  position: absolute;
+  content: '';
+  bottom: 11px;
+  right: 25px;
+  height: 6px;
+  width: 90px;
+  background: #000;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 0.8s linear forwards;
+}
+
+@keyframes animate {
+  100% {
+    transform: scaleX(1)
+  }
+}

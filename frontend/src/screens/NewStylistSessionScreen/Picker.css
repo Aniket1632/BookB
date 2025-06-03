@@ -1,0 +1,53 @@
+/* Picker.module.css */
+ .react-google-flight-datepicker .dialog-date-picker {
+  background: #121212;
+  left: 6px!important;
+}
+
+ .react-google-flight-datepicker .month-name {
+  color: white;
+}
+
+ .react-google-flight-datepicker .weekdays .weekday {
+  color: white;
+}
+
+ .react-google-flight-datepicker .day .text-day {
+  color: white;
+}
+
+ .react-google-flight-datepicker .day.selected.hovered::after, 
+ .react-google-flight-datepicker .day.selected::after {
+  border-radius: 100%;
+  background-color: #ff9000 !important;
+}
+
+ .react-google-flight-datepicker .day.hovered {
+  background-color: black !important;
+}
+
+ .react-google-flight-datepicker .day.selected.hovered {
+  background: black;
+}
+
+ .react-google-flight-datepicker .day.selected.hovered.end {
+  background: linear-gradient(90deg, #000000 50%, #000000 50%);
+}
+
+ .react-google-flight-datepicker .day:hover::after {
+  background: #000000;
+}
+
+ .react-google-flight-datepicker .day.hovered:hover {
+  background: #000000 !important;
+}
+
+ .react-google-flight-datepicker .day.hovered:hover::after {
+  border-radius: 100%;
+  background: #ff9000 !important;
+}
+
+ .react-google-flight-datepicker .day .background-day.first-day,
+ .react-google-flight-datepicker .day .background-day.last-day {
+  background: none;
+}

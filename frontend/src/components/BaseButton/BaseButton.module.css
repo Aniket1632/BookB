@@ -1,0 +1,9 @@
+.baseButton{
+ background-color:#000000;
+color: #ffffff;
+padding: 1.3rem 5rem 1.3rem;
+font-size: 1.6rem;
+  border-radius: 3rem;
+  font-weight: 600;
+  border: none;
+}

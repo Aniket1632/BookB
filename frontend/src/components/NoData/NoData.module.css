@@ -1,0 +1,21 @@
+.noDataContainer {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #8b8b8b;
+}
+.noDataContainerIcon {
+	height: 7rem;
+	width: 7rem;
+	fill: #8b8b8b;
+}
+.noDataContainerText {
+	font-size: 3rem;
+	font-weight: 600;
+}
+.noDataContainerSubText {
+	font-size: 1.3rem;
+	font-weight: 500;
+}

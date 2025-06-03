@@ -1,0 +1,115 @@
+.form_input__label {
+	color: #ffffff ;
+	font-size: 1.2rem;
+}
+
+.tableContainer {
+	width: 100%;
+	margin-top: 1rem;
+	margin-right: 5rem;
+	margin-bottom: 2.5rem;
+	border-radius: 1rem;
+	box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
+	height: 35vh;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+
+
+.table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	border-radius: 1rem;
+	overflow: hidden;
+}
+
+th {
+	position: sticky;
+	top: 0;
+	z-index: 100;
+}
+
+
+.table tr th {
+	white-space: nowrap;
+	/* background-image: linear-gradient(195deg, #42424a, #191919cf); */
+	background-color: #000000;
+	color: var(--pure-white);
+	padding: 1rem;
+	padding-left: 2rem;
+	font-size: 1.3rem;
+	font-weight: 600;
+	text-align: left;
+}
+
+.table tr {
+	transition: all 0.8s;
+	font-size: 1.2rem;
+    background-color: #121212;
+	border-bottom: 1px solid #000;
+}
+
+.table tr td {
+	white-space: nowrap;
+	padding: 1rem;
+	padding-left: 2rem;
+	color: #ffffff;
+	text-align: left;
+}
+
+.input div{
+    background-color: transparent;
+    border-bottom: 1px solid #585858;
+    border-radius: 0rem;
+}
+
+.input label{
+	color: #ffffff;
+}
+
+.fileUpload{
+    display: flex;
+	grid-gap: 2rem;
+	gap: 2rem;
+	background-color: #353434b5;
+	border-radius: 50%;
+	margin-bottom: 2rem;
+	grid-gap: 2rem;
+	gap: 2rem;
+	padding: 1rem 2rem;
+	padding-bottom: 2rem;
+}
+
+.fileUpload div {
+    border-radius: 50%;
+	height: 17rem;
+	margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #121212;
+  cursor: pointer;
+  padding: 0rem 2rem;
+  position: relative;
+  object-fit: cover;
+}
+
+.fileUpload img {
+	height: 17rem;
+    width: 18rem;
+	border-radius: 50%;
+	margin-left: -2rem;
+	margin-right: -2rem;
+}
+
+.textArea label {
+	font-size: 1.4rem;
+}
+
+.textArea div{
+	background-color: transparent;
+	border-bottom: 1px solid #585858;
+	border-radius: 0rem;
+}

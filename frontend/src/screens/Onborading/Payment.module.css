@@ -1,0 +1,84 @@
+.onboarding_price {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: "row";
+  width: 100%;
+}
+
+.priceText {
+  color: #fff;
+  font-weight: normal;
+}
+
+.finalPrice {
+  color: #ff9000;
+  font-weight: normal;
+}
+
+.testing {
+  font-size: 12px;
+}
+
+.total_Price {
+  flex-direction: row;
+}
+
+.discountedPrice {
+  color: #ff9000;
+  font-weight: normal;
+  text-decoration: line-through;
+  margin-right: 10px;
+}
+
+.totalAmount {
+  color: #ff9000;
+  font-size: 20px;
+}
+
+.subTotal {
+  color: #fff;
+  font-weight: normal;
+}
+
+.fees{
+  font-Size: 12px
+}
+
+.divider {
+  border-bottom: 0.5px solid #555;
+  width: 100%;
+  margin-top: 13px;
+}
+
+.totalRow {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.totalText {
+  color: #fff;
+  font-size: 20px;
+}
+
+.totalAmount {
+  color: #FF9000;
+  font-size: 20px;
+}
+
+.flexRowContainer {
+  flex-direction: row;
+  justify-content: flex-start; 
+  display: flex;
+  gap: 1rem;
+}
+
+.onboardInputView {
+  display: flex;
+  cursor: pointer;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,104 @@
+/* Report CSS */
+.reportContent {
+	display: flex;
+	gap: 2rem;
+	align-items: stretch;
+}
+.chartContent {
+	background-color: var(--pure-white);
+	border-radius: 2rem;
+	margin: 2rem 0;
+	padding: 2rem 3rem;
+	width: 52vw;
+}
+.chartContentHeader {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	justify-content: space-between;
+}
+.chartContentHeading {
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+.report_chart_container {
+	max-height: 24rem;
+}
+
+.rightContent {
+	background-color: var(--pure-white);
+	padding: 2rem 3rem;
+	width: 100%;
+	height: 80rem;
+	overflow: auto;
+	border-radius: 2rem;
+}
+.rightContent2 {
+	background-color: var(--pure-white);
+	padding: 2rem 3rem;
+	width: 100%;
+	height: 45.5rem;
+	overflow: auto;
+	border-radius: 2rem;
+}
+.rightContent3 {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+.rightContent4 {
+	background-color: var(--pure-white);
+	padding: 2rem 3rem;
+	width: 100%;
+	height: 30.5rem;
+	overflow: auto;
+	border-radius: 2rem;
+}
+.stylistList {
+	text-decoration: none;
+	color: currentColor;
+	margin-top: 1rem;
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+	justify-content: space-between;
+	background-color: var(--white);
+	padding: 1rem 2rem;
+	border-radius: 2rem;
+	transition: all .4s;
+}
+.stylistList:hover {
+	transform: translateX(.3rem);
+	background-color: var(--lightest-white);
+}
+.stylistListData {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+}
+.stylistListImage {
+	width: 7rem;
+	border-radius: 2rem;
+}
+.stylistListName {
+	font-size: 1.3rem;
+	font-weight: 600;
+	color: var(--dark-grey);
+}
+.stylistListSessions {
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: var(--black);
+}
+.stylistListSessions span {
+	font-size: 2rem;
+}
+.stylistListEarning {
+	font-size: 1.1rem;
+}
+.stylistListIcon {
+	height: 2rem;
+	width: 2rem;
+	fill: var(--primary-color);
+}

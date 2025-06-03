@@ -1,0 +1,159 @@
+.userDetails {
+	margin-top: 1rem;
+	display: flex;
+	gap: 2rem;
+	justify-content: space-around;
+}
+
+.user_detail_screen_main--content {
+	display: flex;
+}
+
+.user_detail_screen_main-left {
+	border-radius: 25px;
+	transition: 0.3s;
+	padding: 3rem 4rem;
+	width: 40%;
+}
+
+.user_detail_screen_main_right {
+	border-radius: 5rem;
+	transition: 0.3s;
+	display: flex;
+}
+
+.user_detail_screen_main_image {
+	border-radius: 2rem;
+	width: 2rem;
+}
+
+.userCard {
+	text-decoration: none;
+	color: currentColor;
+	background-color: var(--pure-white);
+	box-shadow: var(--box-shadow1);
+	border-radius: 2rem;
+	overflow: hidden;
+	padding: 2rem;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	transition: all .4s;
+	width: 35rem;
+	height: 25rem;
+	margin: 1rem;
+}
+
+.userCard:hover {
+	transform: scale(1.05);
+}
+
+.stylistTitle {
+	text-decoration: none;
+	color: #e7e7ea;
+	font-size: 1.5rem;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
+.monthSessions {
+	text-decoration: none;
+	color: #e7e7ea;
+	font-size: 1.8rem;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
+.monthCardIcon {
+	width: 8rem;
+	height: 8rem;
+	fill: white;
+}
+
+.monthSessionTag {
+	font-size: 5rem;
+	width: 10rem;
+	height: 10rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.monthDate {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.headingCard {
+	border-radius: 2rem;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--pure-white);
+	width: 17vw;
+}
+
+.headingCardTitle {
+	color: var(--light-grey);
+	font-weight: 600;
+	font-size: 1.3rem;
+}
+.headingCardContent {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+
+	font-size: 3rem;
+	color: var(--primary-color);
+}
+.headingCardContentIcon {
+	height: 4rem;
+	width: 4rem;
+	fill: var(--primary-color);
+}
+.headingCardDesc {
+	font-size: 1rem;
+	color: var(--light-grey);
+	font-weight: 600;
+}
+
+.headingCircleOuter {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.headingCircleInner {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.monthCardCSS {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	height: 15rem;
+	width: 25rem;
+	background-color: var(--dark-grey);
+	box-shadow: var(--box-shadow1);
+	border-radius: 2rem;
+	overflow: hidden;
+	padding: 2rem;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	transition: all .4s;
+}
+
+.monthCardCSS:hover {
+	transform: scale(1.05);
+}

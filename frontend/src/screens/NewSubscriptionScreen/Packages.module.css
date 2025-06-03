@@ -1,0 +1,174 @@
+.pricing_cards {
+	display: flex;
+	gap: 2rem;
+	flex-wrap: wrap;
+}
+.pricing_card {
+	padding: 2rem 3rem;
+	background-color:#121212;
+	/* box-shadow: ; */
+	border-radius: 2rem;
+}
+.pricing_header {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+}
+.pricing_card_icon_box {
+	height: 3rem;
+	width: 3rem;
+	background-color: var(--primary-color);
+	border-radius: 1rem;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.pricing_card_icon {
+	height: 2rem;
+	width: 2rem;
+	fill: var(--white);
+}
+.pricing_card_heading {
+	font-size: 2rem;
+	font-weight: 700;
+	color: #ffffff;
+}
+.pricing_card_price {
+	display: flex;
+	gap: .5rem;
+	align-items: center;
+	font-size: 1.3rem;
+	color: var(--grey);
+}
+.pricing_card_price p {
+	color: #ffffff;
+}
+.pricing_card_price_amount {
+	font-size: 2rem;
+	font-weight: 700;
+	font-family: 'Poppins', sans-serif;
+	color: #ffffff;
+}
+.pricing_card_features {
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: column;
+	gap: .5rem;
+}
+.pricing_card_feature {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+}
+.pricing_card_feature_icon_box {
+	height: 2rem;
+	width: 2rem;
+	background-color: var(--black);
+	border-radius: .7rem;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.pricing_card_feature_icon {
+	height: 1.2rem;
+	width: 1.2rem;
+	fill: var(--white);
+}
+.pricing_card_feature_text {
+	font-size: 1.3rem;
+	font-weight: 600;
+	color: #ffffff;
+}
+
+.pricing_card_actions {
+	margin-top: 2rem;
+	border-top: 1px solid var(--light-grey);
+	padding-top: 1rem;
+
+	display: flex;
+	gap: .5rem;
+	align-items: center;
+	justify-content: flex-end;
+}
+.pricing_card_action_btn,
+.pricing_card_action_btn_delete {
+	padding: .5rem;
+	border-radius: .8rem;
+	cursor: pointer;
+	transition: all .4s;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.pricing_card_action_btn {
+	background-color: var(--primary-color);
+	border: 1px solid var(--primary-color);
+}
+.pricing_card_action_icon {
+	height: 1.5rem;
+	width: 1.5rem;
+	fill: var(--white);
+	transition: all .4s;
+}
+.pricing_card_action_btn:hover,
+.pricing_card_action_btn_delete:hover {
+	background-color: transparent;
+}
+.pricing_card_action_btn:hover .pricing_card_action_icon {
+	fill: var(--primary-color);
+}
+.pricing_card_action_btn_delete {
+	background-color: var(--red);
+	border: 1px solid var(--red);
+}
+.pricing_card_action_btn_delete:hover .pricing_card_action_icon {
+	fill: var(--red);
+}
+.pricing_card_add_plan_btn {
+	font-family: inherit;
+	background-color: #ff9000;
+	/* border: 1px solid var(--primary-color); */
+	cursor: pointer;
+color: #ffffff;
+	font-size: 1.2rem;
+	padding: .5rem 1rem;
+	border-radius: .5rem;
+	margin-left: 3rem;
+}
+
+
+.input div{
+    background-color: transparent;
+    border-bottom: 1px solid #585858;
+    border-radius: 0rem;
+	margin-top: 2.5rem;
+}
+
+.input label{
+	color: #ffffff;
+	margin:  3rem 1rem;
+	font-size: 1.4rem;
+}
+
+.textArea label {
+	font-size: 1.4rem;
+}
+
+.textArea div{
+	background-color: transparent;
+	border-bottom: 1px solid #585858;
+	border-radius: 0rem;
+	margin-top:.2rem;
+	width: 500px;
+}
+
+.textArea {
+	height: 1rem;
+}
+
+.selects label{
+	margin-top: -1rem;
+}

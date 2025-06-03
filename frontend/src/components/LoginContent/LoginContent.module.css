@@ -1,0 +1,40 @@
+.loginCotnent{
+    display: flex;
+    width: 100%;
+    margin: 6rem;
+    justify-content: center;
+}
+
+.loginBox{
+    display: flex;
+    background-image: url("../assets/bookb-Login-Image.png");
+    justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 100%;
+  width: 95%;
+  background-position-y: 58%;
+  background-position-x: 4rem;
+  box-shadow: 1rem -1rem 7rem -4rem black
+}
+@media (max-width:412px){
+
+}
+
+@media only screen and (min-width: 810px) and (max-width: 1080px){
+  
+  .loginBox{
+    display: flex;
+  background-image: url("../assets/bookb-Login-Image.png");
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  background-position-x: -26rem;
+  box-shadow: 1rem -1rem 7rem -4rem black;
+  border-radius: 4rem;
+}
+}

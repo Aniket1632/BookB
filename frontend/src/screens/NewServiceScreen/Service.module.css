@@ -1,0 +1,229 @@
+.chartContentHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.textBoxInput {
+  background-color: #fff;
+}
+
+.textBoxInputBox {
+  background-color: #fff;
+}
+
+.form_input__label {
+  color: var(--light-grey);
+  font-size: 1.2rem;
+}
+
+.tableContainer {
+  width: 100%;
+  margin-top: 1rem;
+  margin-right: 5rem;
+  margin-bottom: 2.5rem;
+  background-color: #121212;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
+  height: 35vh;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border-radius: 1rem;
+  background-color: #121212;
+  overflow: hidden;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.table tr th {
+  white-space: nowrap;
+  /* background-image: linear-gradient(195deg, #42424a, #191919cf); */
+  background-color: #000000;
+  color: var(--pure-white);
+  padding: 1rem;
+  padding-left: 2rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.tableContainer table tr td {
+  padding: 1rem;
+  padding-left: 2rem;
+  color: #ffffff;
+  text-align: left;
+}
+
+.tableContainer table tr {
+  transition: all 0.8s;
+  font-size: 1.2rem;
+  background-color: #121212;
+}
+
+.table-service-container tr:nth-child(even) {
+  background-color: #121212;
+}
+
+.accordianContainer {
+  border-radius: 0px;
+  overflow: hidden;
+  box-shadow: 0 4px 4px -2px rgb(0 0 0 / 50%);
+  cursor: pointer;
+  font-size: 1.7rem;
+  font-weight: 600;
+  transition: all 0.4s;
+  background-color: #171717;
+}
+
+.accordianContainer__button {
+  border: none;
+  background-color: transparent;
+  border: 0px solid var(--primary-color);
+  outline: none;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.4s;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.accordianContainer__button span {
+  display: none;
+  font-size: 1rem;
+  color: var(--pure-white);
+  background-color: var(--black);
+  padding: 0.5rem 1rem;
+  border-radius: 10rem;
+  position: absolute;
+  top: -2rem;
+  /* left: 0; */
+  /* transform: translate(-50%, -50%); */
+  transition: all 1s;
+  right: 1rem;
+  z-index: 1000;
+}
+
+.accordianContainer--icon-move {
+  height: 2rem;
+  width: 2rem;
+  fill: #ffffff;
+}
+
+.expandable {
+  transition: all 0.8s;
+  font-size: 1.2rem;
+  background-color: #121212;
+}
+
+.expandable-icon .accordianContainer__button {
+  border: none;
+  background-color: transparent;
+  border: 0px solid;
+  outline: none;
+  padding: 0rem;
+  margin: 0rem;
+  gap: 0rem;
+}
+
+.expandable-icon .accordianContainer__button span {
+  right: -12rem;
+  top: 0rem;
+}
+
+.accordianContainer:hover .accordianContainer--icon-move {
+  height: 2rem;
+  width: 2rem;
+  fill: #6b6b6b93;
+}
+
+.expandable .accordianContainer--icon-move {
+  height: 2rem;
+  width: 2rem;
+  fill: #4e4e4e00;
+}
+
+.expandable:hover .accordianContainer--icon-move {
+  height: 2.5rem;
+  width: 2.5rem;
+  gap: 0.5rem;
+  fill: #ffffffc9;
+}
+
+.accordian {
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.form_input__label {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.input div {
+  background-color: transparent;
+  border-bottom: 1px solid #585858;
+  border-radius: 0rem;
+  margin-top: 1.5rem !important;
+}
+
+.input label {
+  color: #ffffff;
+}
+
+.inputTime label {
+  color: #ffffff;
+}
+.input icon {
+  fill: #000000;
+}
+
+.inputTime div {
+  background-color: transparent;
+  /* border-bottom: 1px solid #585858; */
+  border-radius: 0rem;
+}
+
+.textArea div {
+  background-color: transparent;
+  border-bottom: 1px solid #585858;
+  border-radius: 0rem;
+}
+.textArea label {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.selectBox div {
+  background-color: transparent;
+  border-bottom: 1px solid #585858;
+  margin-top: 3rem;
+}
+
+.selectBox label {
+  font-size: 1.2rem;
+}
+
+.selectBox label svg {
+  top: 0.6rem;
+  position: absolute;
+}
+
+@media only screen and (min-width: 810px) and (max-width: 1500px) {
+  .form {
+    height: 70vh !important;
+    overflow: auto;
+  }
+}

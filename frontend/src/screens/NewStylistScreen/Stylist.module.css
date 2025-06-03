@@ -1,0 +1,327 @@
+.tableContainer{
+  width: 100%;
+  margin-top: 1rem;
+  margin-right: 5rem;
+  margin-bottom: 2.5rem;
+  /* background-color: #121212; */
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
+  height: 35vh;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+
+
+.table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	border-radius: 1rem;
+	background-color: #121212;
+	overflow: hidden;
+}
+
+th {
+	position: sticky;
+	top: 0;
+	z-index: 100;
+}
+
+
+.table tr th {
+	white-space: nowrap;
+	/* background-image: linear-gradient(195deg, #42424a, #191919cf); */
+	background-color: #000000;
+	color: var(--pure-white);
+	padding: 1rem;
+	padding-left: 2rem;
+	font-size: 1.3rem;
+	font-weight: 600;
+	text-align: left;
+}
+
+.table tr td {
+	white-space: nowrap;
+	padding: 1rem;
+	padding-left: 2rem;
+	color: #ffffff;
+	text-align: left;
+}
+
+.table tr {
+	transition: all 0.8s;
+	font-size: 1.2rem;
+	border-bottom: 1px solid #000;
+}
+@media (max-width : 400px){
+	.table tr td{
+		padding: 1px;
+		height: 10px;
+	}
+}
+
+.table__iconBox {
+	display: flex;
+	align-items: center;
+	/*change this to center*/
+	justify-content: left;
+	/*change this to center*/
+	gap: 0.5rem;
+}
+
+.table__button {
+	border: none;
+	background-color: transparent;
+	border: 0px solid var(--primary-color);
+	outline: none;
+	padding: .7rem;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	transition: all 0.4s;
+	display: flex;
+	align-items: center;
+	position: relative;
+	/* background-image: linear-gradient(195deg, #42424a, #191919); */
+}
+
+.table__button span {
+	display: none;
+	font-size: 1rem;
+	color: var(--pure-white);
+	background-color: var(--black);
+	padding: 0.5rem 1rem;
+	border-radius: 10rem;
+	position: absolute;
+	top: -2rem;
+	/* left: 0; */
+	/* transform: translate(-50%, -50%); */
+	transition: all 1s;
+	right: 1rem;
+	z-index: 1000;
+}
+
+.table__button:hover span {
+	display: block;
+}
+
+.table__button:hover {
+	background-color: var(--primary-color);
+	border: 0px solid var(--primary-color);
+}
+
+.table__button:hover .table__button--icon {
+	fill: var(--pure-white);
+}
+
+.table__button .table__button--changepwd:hover{
+	background-color: #FF9000;
+  border: 0px solid #FF9000;
+}
+
+.table__button--icon {
+	height: 1.5rem;
+	width: 1.5rem;
+	fill: var(--pure-white);
+}
+
+.table__button--delete {
+	border: 0px solid var(--red);
+}
+
+.table__button--delete:hover {
+	background-color: #FF9000;
+	border: 0px solid var(--red);
+}
+
+.table__button--delete:hover .table__button--icon-red {
+	fill: var(--white);
+}
+
+.table__button--icon-red {
+	height: 1.5rem;
+	width: 1.5rem;
+	fill: var(--pure-white);
+}
+
+.table__button__second {
+	margin-right: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+	text-decoration: none;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	border-radius: 5rem;
+	font-size: 1.1rem;
+	cursor: pointer;
+	transition: all .4s;
+}
+
+.table__button__second span {
+	margin-left: 1rem;
+}
+
+.table__button__secondIconContainer {
+	margin: .5rem;
+	padding: .5rem;
+	background-color: #363636;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	transition: all .4s;
+}
+
+.table__button__secondIcon {
+	height: 1rem;
+	width: 1rem;
+	fill: var(--white);
+	transition: all .4s;
+}
+
+.table__button__second:hover {
+	background-color: #FF9000;
+	border: 0px solid #FF9000;
+	color: var(--white);
+}
+
+.table__button__second:hover .table__button__secondIconContainer {
+	background-color: var(--white);
+}
+
+.table__button__second:hover .table__button__secondIcon {
+	fill: var(--dark-grey);
+}
+
+.input div{
+    background-color: transparent;
+    border-bottom: 1px solid #585858;
+    border-radius: 0rem;
+
+}
+
+.input label{
+	color: #ffffff;
+	font-size: 1.4rem;
+}
+
+.fileUpload{
+    display: flex;
+	grid-gap: 2rem;
+	gap: 2rem;
+	background-color: #353434b5;
+	border-radius: 50%;
+	margin-bottom: 2rem;
+	grid-gap: 2rem;
+	gap: 2rem;
+	padding: 1rem 2rem;
+	padding-bottom: 2rem;
+}
+
+.fileUpload div {
+    border-radius: 50%;
+	height: 17rem;
+	margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #121212;
+  cursor: pointer;
+  padding: 0rem 2rem;
+  position: relative;
+  object-fit: cover;
+  width: 19rem;
+}
+
+
+.fileUpload div img{
+  object-fit: cover; 
+  width: 25rem;
+  height: 17rem;
+  margin-left: 0rem;
+}
+
+.inputTime label{
+	color: #ffffff;
+}
+
+.inputTime div {
+	background-color:transparent;
+	border-bottom: 1px solid #585858;
+	border-radius: 0rem;
+}
+
+.multiSelectBox label{
+	margin-top: 0rem;
+	font-size: 1.2rem;
+}
+
+.textArea div{
+	background-color:transparent;
+	border-bottom: 1px solid #585858;
+	border-radius: 0rem;
+}
+.textArea label{
+	color: #ffffff;
+	font-size: 1.4rem;
+}
+
+.textArea div{
+	padding: 0rem;
+}
+
+/* .coinIcon {
+	width: 18px;
+	height: 18px;
+	vertical-align: middle;
+	fill: #ffd600;
+	margin-right: 1px;
+	padding-bottom: 3px;
+} */
+
+@media  (min-width: 400px) {
+	.tableContainer {
+	  margin-right: 2rem;
+	  margin-bottom: 1.5rem;
+	  height: auto;
+	}
+  }
+
+@media only screen and (min-width: 810px) and (max-width: 1080px) {
+	.table{
+		font-size: 1rem;
+		font-weight: 100;
+		max-width: 300px;
+		padding: 1px;
+	}
+	.table tr th{
+		font-weight: 100;
+		font-size: 1rem;
+		padding: 1px;
+	}
+	.table tbody tr td{
+		font-weight: 100;
+		font-size: 1rem;
+		padding: 2px;
+	}
+	.table__button__second span{
+		font-size: 1rem;
+	}
+}
+
+/* @media only screen and (min-width: 900px) and (max-width: 1088px) {
+	.form{
+		height: 62vh!important;
+		overflow:auto;
+	}
+} */
+
+ @media  only screen and (min-width: 810px) and (max-width: 1500px) {
+	.form{
+		height: 70vh!important;
+		overflow:auto;
+	}
+}
+

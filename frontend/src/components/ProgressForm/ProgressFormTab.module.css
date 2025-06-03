@@ -1,0 +1,152 @@
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-right: 2rem;
+}
+
+.salonRegister{
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.step{
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  color: white;
+  grid-gap: 1rem;
+  gap: 1rem;
+  flex-direction: column;
+  width: 100px;
+  text-align: center;
+}
+
+/* .bullet{
+    width: 3rem;
+    height: 3rem;
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 16px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+
+
+.Complete .bullet{
+    width: 3rem;
+    height: 3rem;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+} */
+
+.bullet{
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    background-color: #c4c4c4;
+    border: 1px solid #c4c4c4;
+    color: #121212;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+
+  }
+
+  .step p{
+    font-size: 10.2px;
+    text-transform: uppercase;
+}
+  
+  /* .step:last-child .bullet::before,
+  .step:last-child .bullet::after{
+    display: none;
+  } */
+  
+  .bullet::before,
+  .bullet::after{
+    position: absolute;
+    content: '';
+    bottom: 11px;
+    right: 20px;
+    height: 6px;
+    width: 90px;
+    background: #c4c4c4;
+    z-index: -1;
+
+  }
+  
+  .step:first-child .bullet::before,
+  .step:first-child .bullet::after{
+    display: none;
+  }
+  
+  /* .Complete{
+    text-align: center;
+    width: 262px;
+  }
+   */
+  .Complete .bullet{
+    /* background-color: var(--primary);
+    border: 2px solid var(--primary);
+    color: #fff; */
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(255, 144, 0);
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid #0000;
+  }
+  
+  .Complete .bullet::after{
+    position: absolute;
+    content: '';
+    bottom: 11px;
+    right: 20px;
+    height: 6px;
+    width: 90px;
+    background: rgb(255, 144, 0);
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 0.8s linear forwards;
+  }
+  
+  @keyframes animate {
+    100%{
+      transform: scaleX(1)
+    }
+  }
+
+  @media (max-width:500px){
+    .container{
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-right: 1rem;
+  } 
+
+  .step{
+    padding-left: 12px;
+  }
+  .onboard_down {
+    margin-top: 0rem;
+  }
+  }

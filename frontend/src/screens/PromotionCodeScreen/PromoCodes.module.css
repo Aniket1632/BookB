@@ -1,0 +1,79 @@
+.promoCodes {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+.promoCodeCard {
+	background-color: var(--white);
+	padding: 2rem 3rem;
+	border-radius: 2rem;
+
+	text-align: center;
+}
+.promoCodeCard_title {
+	font-family: 'Poppins', sans-serif;
+	font-size: 2rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	min-width: 20rem;
+	line-height: 1.4;
+}
+.promoCodeCard_validity {
+	font-size: 1.3rem;
+	font-weight: 600;
+}
+.promoCodeCard_code {
+	font-size: 1.4rem;
+	font-weight: 600;
+	color: var(--primary-color);
+}
+.promoCodeCard_code span {
+	font-weight: 800;
+}
+.promoCodeCard_actions {
+	margin-top: 1.5rem;
+	border-top: 1px solid var(--light-grey);
+	padding-top: 2rem;
+
+	display: flex;
+	gap: .5rem;
+	align-items: center;
+	justify-content: center;
+}
+.promoCodeCard_action_button,
+.promoCodeCard_action_button_delete {
+	border-radius: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: .5rem;
+	cursor: pointer;
+	transition: all .4s;
+}
+.promoCodeCard_action_button {
+	background-color: var(--primary-color);
+	border: 1px solid var(--primary-color);
+}
+.promoCodeCard_action_button_delete {
+	background-color: var(--red);
+	border: 1px solid var(--red);
+}
+.promoCodeCard_action_buttonicon {
+	height: 1.5rem;
+	width: 1.5rem;
+	fill: var(--white);
+	transition: all .4s;
+}
+.promoCodeCard_action_button:hover {
+	background-color: transparent;
+}
+.promoCodeCard_action_button_delete:hover {
+	background-color: transparent;
+}
+
+.promoCodeCard_action_button:hover .promoCodeCard_action_buttonicon {
+	fill: var(--primary-color);
+}
+.promoCodeCard_action_button_delete:hover .promoCodeCard_action_buttonicon {
+	fill: var(--red);
+}

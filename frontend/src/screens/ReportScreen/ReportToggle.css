@@ -1,0 +1,87 @@
+.report_chart_container {
+    max-height: 62rem;
+}
+
+
+.reportHeader {
+    display: flex; 
+    align-items: center;
+    width: max-content; 
+    float: right; 
+}
+
+
+.reports_graph_toggle_container {
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    justify-self: flex-end;
+    margin-top: 2rem;
+}
+
+.reports_graph_ontainer {
+    background-color: var(--secondary);
+    display: flex;
+    gap: .5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.reports_graph_toggle {
+    background-color: var(--grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border-radius: .8rem;
+}
+
+.active_report_chart {
+    box-shadow: 0.5rem 0.5rem 3rem 2px #09baa51a;
+}
+
+.report_toggle--icon {
+    height: 2rem;
+    width: 2rem;
+    fill: #e0d7d9;
+}
+
+.reports_graph_toggle_label {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.report_chart_container--section {
+    display: flex;
+    gap: 2rem;
+    background-color: var(--bg-secondary);
+    padding: 1.5rem;
+    padding-bottom: 0.8rem;
+    border-radius: 2rem;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.month_filter {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    width: max-content;
+    background-color: var(--bg-secondary);
+    border-radius: 1rem;
+    box-shadow: var(--box-shadow1);
+    margin: 1rem 0;
+}
+
+
+.month_filter .textBox__input--box {
+    margin-left: 0rem;
+}
+
+
+

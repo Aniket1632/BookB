@@ -1,0 +1,39 @@
+.signDataAddBtn {
+	font-family: inherit;
+	font-size: 1.2rem;
+	color: var(--black);
+	font-weight: 500;
+	background-color: transparent;
+	border: 1px solid var(--black);
+	padding: .5rem 2rem;
+	border-radius: 2rem;
+	cursor: pointer;
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+	justify-content: center;
+	transition: all .4s;
+}
+.signDataAddBtnIcon {
+	height: 1.5rem;
+	width: 1.5rem;
+	fill: var(--black);
+	transition: all .4s;
+}
+.signDataAddBtn:hover {
+	background-color: var(--black);
+	border: 1px solid var(--black);
+	color: var(--white);
+}
+.signDataAddBtn:hover .signDataAddBtnIcon {
+	fill: var(--white);
+}
+.selectBox {
+	font-family: inherit;
+	border: none;
+	outline: none;
+	background-color: var(--dark-blue);
+	color: var(--white);
+	padding: .5rem 1rem;
+	border-radius: .5rem;
+}

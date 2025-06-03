@@ -1,0 +1,68 @@
+.inputContent{
+    display: flex;
+    box-shadow: 0rem 0.2rem 2rem -1.5rem black;
+    border: none;
+    width: 100%;
+    border-radius: 3rem;
+    outline: none;
+    padding: 1.2rem 1rem;
+    justify-content: center;
+    margin-left: 2rem;
+    padding-right: 5rem
+}
+
+.title{
+    display: inline-block;
+    margin-bottom: 0.6rem;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 2.8rem;
+}
+
+.baseInput{
+    width: 100%;
+    outline: none;
+    margin-left: 1.2rem;
+    padding-left: 1rem;
+    padding: 0.5rem 1.8rem 0.7rem;
+    align-items: center;
+    border: none;
+    border-left: 1px solid #C6C6C6;
+    display: flex;
+  }
+
+  .errorMessage{
+    color: red;
+    margin-left: 3rem;
+  }
+
+  .input__icon{
+    height: 2rem;
+    width: 2rem;
+    fill: #ffffff;
+    position: absolute;
+    right: 3rem;
+  }
+ 
+  @media (max-width:1000px){
+    .inputContent{
+        width: 85%;
+    }
+  }
+
+  .navigation__icons{
+    fill: black;
+    height: 2rem;
+    width: 2rem;
+    gap: 15px;
+  }
+  
+.toggle-password-button{
+  position: absolute;
+  right: -28px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,222 @@
+/* RewardDescritionModal.module.css */
+/* .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal {
+    background: #1E1E1E;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .header h2{
+
+    color: #ff9900;
+  }
+  
+  .closeButton {
+    background-color: #ff9900;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0rem 0.4rem;
+   border-radius: 1.2rem;
+  }
+  
+  .body {
+    margin-top: 10px;
+    color: #FFF;
+  }
+
+  .body p {
+    font-size: 1.2rem;
+  }
+  
+  .closeActionButton {
+    margin-top: 20px;
+    padding: 1rem 2.2rem;
+    border-radius: 0.8rem;
+    background-color: #ff9900;
+    color: white;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+   */
+/* RewardDescritionModal.module.css */
+
+/* .container {
+    padding: 20px;
+    background-color: #181818; 
+    min-height: 65vh;
+    overflow: scroll;
+  }
+  
+  .heading {
+    font-size: 24px;
+    color: #f1c40f;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #f90;
+    border-bottom-width: 1px;
+    border-width: 5px;
+    width: 5rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    justify-items: center;
+  }
+  
+  .card {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .rewardBadge {
+    font-size: 32px;
+    position: absolute;
+    top: -20px;
+    left: -10px;
+  }
+  
+  .rewardValue {
+    font-size: 5rem;
+    color: #f1c40f;
+    font-weight: bold;
+    margin-bottom: -1rem;
+  }
+
+
+  .customSlider::-moz-range-track {
+    background: linear-gradient(to right, #4caf50, #4caf50);
+  }
+
+  .banner{
+    background-image: url("../../Assets/coverbg1.png");
+    background-size: cover;
+    background-position-y: -122px;
+    background-repeat: repeat;
+    padding: 14rem 0px 0px;
+  }
+  
+  .rewardTitle {
+    white-space: nowrap;       
+    overflow: hidden;          
+    text-overflow: ellipsis;   
+    max-width: 100%;          
+    display: block;
+    font-size: 1.2rem;
+  }
+
+  .coinsCount{
+    position: relative;
+    line-height: 3rem;
+    margin-left: 0.6rem;
+  }
+  
+  .outOfCoins{
+    display: contents;
+    font-weight: normal;
+    font-size: 1.6rem;
+  }
+
+  .coinsContent{
+   font-weight: bold;
+  }
+
+  .totalCoins{
+    font-size: 5rem;
+  }
+
+  .totalCoinsText{
+    font-size: 2.6rem;
+    margin-left: 2rem;
+    font-weight: 600;
+  }
+
+  .totalCoinsText{
+    font-size: 2.6rem;
+    margin-left: 1.6rem;
+    font-weight: 600;
+  }
+
+  .readMoreButton{
+    color: #f90;
+  font-size: 1.1rem;
+  font-weight:lighter ;
+  cursor: pointer;
+  }
+
+  .goalSlider{
+   margin-top: 1rem;
+  }
+
+  .completedGoals{
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  .rewardValueContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+  .coinsText {
+    font-size: 2.4rem;
+    color: #f1c40f;
+}
+
+
+.progressBarBackground {
+  width: 16rem;
+  height: 0.5rem;
+  background-color: #e0e0df;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+
+.progressBarFill {
+  height: 100%;
+  background-color: #ff9900;
+  transition: width 0.3s ease-in-out;
+}
+
+
+
+
+  @media (max-width: 600px) {
+    .grid {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+  } */
+  
+  
+

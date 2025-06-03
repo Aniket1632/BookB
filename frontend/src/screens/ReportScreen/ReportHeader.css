@@ -1,0 +1,30 @@
+.reportHeader--tab {
+	display: flex;
+	gap: 1rem;
+}
+
+.report_chart_container--section {
+	display: flex;
+	gap: 2rem;
+	background-color: var(--pure-white);
+	padding: 1.5rem;
+	padding-bottom: 0.8rem;
+	border-radius: 2rem;
+	align-items: center;
+	margin-bottom: 0.5rem;
+}
+
+.month_filter {
+	display: flex;
+	gap: 2rem;
+	align-items: center;
+	width: max-content;
+	background-color: var(--pure-white);
+	border-radius: 1rem;
+	box-shadow: var(--box-shadow1);
+	margin: 1rem 0;
+}
+
+.month_filter .textBox__input--box {
+	margin-left: 0rem;
+}

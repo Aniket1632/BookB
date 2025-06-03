@@ -1,0 +1,291 @@
+.skeleton {
+ border-radius: 1rem;
+ position: relative;
+ overflow: hidden;
+}
+.skeleton::after {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background: linear-gradient(
+  90deg,
+  rgba(240, 240, 241, 0.041),
+  rgba(211, 219, 219, 0.24), rgba(127, 126, 126, 0.1) 
+ );
+ animation: progress 1.5s ease-in-out infinite;
+}
+@keyframes progress {
+ 0% {
+  transform: translate3d(-100%, 0, 0);
+ }
+ 100% {
+  transform: translate3d(100%, 0, 0);
+ }
+}
+.SidebarSkeleton {
+ margin-left: 2rem;
+}
+.navigation__logo_skeleton {
+ height: 6rem;
+ width: 15rem;
+ background-color: var(--lightest-white);
+ margin-bottom: 4rem;
+}
+.navigation__list {
+ height: 3rem;
+ width: 18rem;
+ background-color: var(--lightest-white);
+ margin-top: 1.2rem;
+}
+.chartSkeleton {
+ margin: 2rem 0;
+ height: 30.5rem;
+ width: 100%;
+ background-color: var(--pure-white);
+ border-radius: 2rem;
+}
+.cardSkeletons {
+ display: flex;
+ gap: 2rem;
+ width: 100%;
+ flex-direction: column;
+}
+.cardSkeleton {
+ height: 13rem;
+ width: 100%;
+ background-color: #121212;
+}
+
+.cardSkeleton1 {
+    height: 25rem;
+    width: 100%;
+    background-color: #121212;;
+   }
+.category {
+ height: 2rem;
+ width: 50%;
+ background-color: var(--white);
+}
+.appointmentSection {
+ background-color: white;
+ border-radius: 15px;
+ padding: 2rem 2rem;
+}
+.service {
+ height: 2rem;
+ width: 15rem;
+ background-color: var(--white);
+}
+.profile {
+ height: 6rem;
+ width: 6rem;
+ background-color: var(--white);
+ border-radius: 50%;
+}
+
+.profile1 {
+    height: 6rem;
+    width: 6rem;
+    background-color: #545454;
+    border-radius: 5px;
+   }
+
+.timeslot {
+ height: 3rem;
+ width: 8rem;
+ background-color: var(--white);
+}
+.labelSkeleton {
+ height: 6rem;
+ width: 30rem;
+ background-color: var(--white);
+}
+.textBoxSkeleton {
+ margin-top: 0.5rem;
+ margin-bottom: 1rem;
+ height: 6rem;
+ background-color: var(--white);
+}
+.labelSkeleton1 {
+    height: 1rem;
+    width: 10rem;
+    background-color: #545454;
+   }
+   .labelSkeleton2 {
+    height: 1rem;
+    width: 6rem;
+    background-color: #545454;
+   }
+   .textBoxSkeleton1 {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    height: 4rem;
+    width: 20rem;
+    background-color: #5454541f;
+   }
+   .textBoxSkeleton2{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    height: 4rem;
+    width: 6rem;
+    background-color: #545454;
+   }
+.buttonSkeleton {
+ height: 4rem;
+ width: 10rem;
+ background-color: var(--white);
+ margin-bottom: 2rem;
+}
+.textSkeleton {
+ height: 5rem;
+ width: 18rem;
+ background-color: var(--white);
+ margin-bottom: 1rem;
+}
+
+.container{
+    width: 50%;
+    height:54.4rem;
+    border-radius: 0.3rem;
+    position: relative;
+    background-color: #545454;
+    padding: 2rem
+}
+
+.container::after{
+    animation: progress 1.5s ease-in-out infinite;   
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    transform: translateX(-100px);
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.199),
+      transparent
+    );
+}
+
+.iconTextComponent{
+height: 2rem;
+width: 20rem;
+background-color: #353535;
+margin-top: 1rem;
+margin-left: 19rem;
+}
+
+
+.textInputSkeleton{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        height: 3rem;
+        width: 30rem;
+        background-color: #353535;
+        border-radius: 0.3rem;
+}
+
+.textAreaSkeleton{
+   height: 8rem;
+    width: 40rem;
+    background-color: #353535;
+    margin-top: 1rem;
+}
+
+.buttonSkeleton{
+    margin-top: 1rem;
+    height: 5rem;
+    width: 15rem;
+    background-color: #353535;
+    margin-bottom: 1rem;
+}
+.upadteButtonSkeleton{
+    margin-top: 2rem;
+    height: 3rem;
+    width: 10rem;
+    background-color: #353535;
+    margin-bottom: 1rem;
+    margin-left:48rem ;
+}
+
+.userIconComponentSkeleton{
+    position: relative;
+  height: 20rem;
+  width: 21rem;
+  background-color: #353535;
+  border-radius: 50%;
+  margin-left: 18rem;
+  margin-top: -11rem;
+}
+
+.userIconComponentSkeleton ::after{
+    animation: progress 1.5s ease-in-out infinite;   
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-180px);
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.921),
+      transparent
+    );
+}
+
+.addUser{
+    height: 3.5rem;
+    width: 10rem;
+    background-color: #353535;
+    border-radius: 0.2rem;
+    margin-bottom: 3rem;
+}
+
+.userContainer{
+    width: 100%;
+	margin-top: 1rem;
+	margin-right: 5rem;
+	margin-bottom: 2.5rem;
+	border-radius: 1rem;
+	height:100%;
+	background-color: #545454;
+    position: relative;
+}
+
+.userData{
+    height: 4rem;
+    width: 100%;
+    background-color: #353535;
+    margin-bottom: 1rem;
+    border-radius: 0.2rem;
+}
+.userData::after{
+    /* animation: progress 1.5s ease-in-out infinite;   
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-180px);
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(61, 61, 61, 0.921),
+      transparent
+    ); */
+}
+
+@keyframes loading {
+    100% {
+      transform: translateX(70%);
+    }
+  }
+  

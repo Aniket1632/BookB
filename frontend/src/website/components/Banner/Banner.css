@@ -1,0 +1,35 @@
+.banner {
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center; 
+}
+
+.banner__text {
+	font-weight: 300;
+	color: white;
+	text-align: center; 
+}
+
+.banner__heading {
+	font-weight: 700;
+	padding-bottom: 1rem;
+	text-align: center;
+	color: white;
+}
+
+
+.banner_sub {
+	background: #0000007a;
+	width: 100%;
+	height: 100%;
+	padding: 0 5rem;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

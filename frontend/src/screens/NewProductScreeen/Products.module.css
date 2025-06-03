@@ -1,0 +1,261 @@
+.productCards {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  row-gap: 2rem;
+}
+
+.productCard {
+  text-decoration: none;
+  color: currentColor;
+  background-color: #121212;
+  box-shadow: var(--box-shadow1);
+  border-radius: 2rem;
+  overflow: hidden;
+  padding: 2rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: all 0.4s;
+  width: 25rem;
+}
+
+.productCard:hover {
+  transform: translateY(-0.2rem);
+}
+
+.productCard__iImageIcon {
+  position: relative;
+}
+
+.productCard__iImageIcon_image {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 2rem;
+  object-fit: cover;
+  border-radius: 2rem;
+}
+
+.productCard__iImageIcon_icon_container {
+  background-color: var(--primary-color);
+  display: flex;
+  padding: 0.5rem;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -40%);
+}
+
+.productCard__iImageIcon_icon {
+  height: 2rem;
+  width: 2rem;
+  fill: #e7e7ea;
+  transition: all 0.4s;
+}
+
+.productCard__iImageIcon_icon:hover {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.productCard__title {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.productCard__subTitle {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.productCardCategory {
+  border: 1px solid #ff9000;
+  padding: 0.2rem 1rem;
+  border-radius: 2rem;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.productCardStats {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.productCardStatsCount {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.productCardStat {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.productCardStatIcon {
+  height: 1.5rem;
+  width: 1.5rem;
+  fill: var(--blue);
+}
+
+.productCardActions {
+  border-top: 1px solid var(--white);
+  width: 100%;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.productCardActionBtn {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.productCardAction {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  padding: 0.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.productCardActionIcon {
+  height: 1.2rem;
+  width: 1.2rem;
+  fill: #ffffff;
+  transition: all 0.4s;
+}
+
+.productCardAction:hover {
+  background-color: #ff9000;
+  border: 1px solid #ff9000;
+}
+
+.productCardAction:hover .productCardActionIcon {
+  fill: var(--pure-white);
+}
+
+.input {
+  color: #ffffff;
+}
+
+.input div {
+  background-color: transparent;
+  border-bottom: 1px solid #585858;
+  border-radius: 0rem;
+  margin-top: 3rem;
+}
+
+.input label {
+  color: #ffffff;
+  margin-top: 1rem;
+}
+
+.textArea div {
+  background-color: transparent;
+  border: 1px solid #585858;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+.textArea label {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.selectBox div {
+  background-color: transparent;
+  border-bottom: 1px solid #585858;
+  margin-top: 3rem;
+}
+
+.selectBox label {
+  font-size: 1.2rem;
+}
+
+.selectBox label svg {
+  top: -0.6rem;
+  position: absolute;
+}
+
+.fileUpload {
+  display: flex;
+  grid-gap: 2rem;
+  gap: 2rem;
+  background-color: #353434b5;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+  grid-gap: 2rem;
+  gap: 2rem;
+  padding: 1rem 2rem;
+  padding-bottom: 2rem;
+}
+
+.fileUpload div {
+  border-radius: 50%;
+  height: 19rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #121212;
+  cursor: pointer;
+  padding: 0rem 2rem;
+  position: relative;
+  object-fit: cover;
+  width: 20rem;
+}
+
+.fileUpload img {
+  height: 19rem;
+  width: 20rem;
+  border-radius: 50%;
+  position: absolute;
+}
+
+@media (max-width: 809px) {
+  .productCard__iImageIcon_image {
+    width: 13rem;
+    height: 13rem;
+  }
+
+  .productCardCategory {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 810px) and (max-width: 1080px) {
+  .productCards {
+    gap: 3rem;
+    margin-left: 2rem;
+  }
+}
+
+@media only screen and (min-width: 810px) and (max-width: 1500px) {
+  .form {
+    height: 70vh !important;
+    overflow: auto;
+  }
+}

@@ -1,0 +1,316 @@
+.profileDetails {
+    padding: 5rem;
+    display: flex;
+}
+
+.profileCardStats {
+    padding: 2rem;
+    line-height: 4rem;
+}
+
+.profileContact {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+
+.profileColumn {
+    width: 20rem;
+}
+
+
+.profileContactHeading {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.6rem;
+	margin-top: 2rem;
+}
+
+.profileLogo {
+    height: 8rem;
+    padding-left: 2rem;
+	margin-bottom: 2rem;
+}
+
+.logindecs {
+    font-size: 1.5rem;
+}
+
+.profileName {
+    font-size: 2.5rem;
+}
+
+
+.stylistContainer {
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: var(--box-shadow1); 
+    height: 72rem;
+    width: 100%;
+	background: var(--bg-primary);
+}
+
+
+.modal__heading {
+	border-bottom: 1px solid #ccc;
+	padding: 0.5rem 2rem;
+	margin-top: 0.5rem;
+	margin-bottom: 1rem;
+	font-weight: 600;
+}
+.modal__headingContainer {
+	/* display: flex; */
+	align-items: center;
+    text-align: center;
+	justify-content: space-between;
+	padding: 0.5rem 2rem;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+.modal__heading2 {
+	font-weight: 600;
+}
+
+
+.signDataAddBtn {
+	margin-top: .5rem;
+	background-color: transparent;
+	border: none;
+	font-family: inherit;
+	font-size: 1.1rem;
+	color: var(--primary-color);
+	font-weight: 500;
+	background-color: transparent;
+	border: 1px solid var(--primary-color);
+	padding: .2rem 1rem;
+	border-radius: 1rem;
+	cursor: pointer;
+    height: 3rem;
+	display: flex;
+	align-items: center;
+	transition: all .4s;
+}
+.signDataAddBtnIcon {
+	height: 1rem;
+	width: 1rem;
+	fill: var(--white);
+}
+.signDataAddBtn:hover {
+	background-color: var(--primary-color);
+	border: 1px solid var(--primary-color);
+	color: var(--black);
+}
+
+.userDetailsContainer {
+	display: flex;
+	gap: 5rem;
+	/* flex-direction: column;
+	align-items: flex-start; */
+}
+.userDetails__image {
+	height: 10rem;
+}
+.userDetails__contact_heading {
+	font-size: 1.5rem;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin-top: 1rem;
+	color: var(--grey);
+}
+.userDetails__info_name {
+	font-size: 1.6rem;
+	font-weight: 700;
+	color: var(--primary-color);
+}
+.userDetails__info_role {
+	font-size: 1.2rem;
+	font-weight: 600;
+	font-style: italic;
+	color: var(--primary-color);
+}
+.flex {
+	display: flex;
+	gap: .5rem;
+	align-items: center;
+}
+.userDetails__contact_phone,
+.userDetails__contact_email {
+	font-size: 1rem;
+	font-weight: 800;
+	text-transform: uppercase;
+	width: 6rem;
+}
+.userDetails__contact_phoneNumber,
+.userDetails__contact_emailId {
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+.userDetails__button {
+	background-color: var(--primary-color);
+	border: 1px solid var(--primary-color);
+	font-family: inherit;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: var(--white);
+	margin: 1rem 0;
+	padding: 1rem 2rem;
+	border-radius: .5rem;
+	cursor: pointer;
+	transition: all .4s;
+}
+.userDetails__button:hover {
+	background-color: transparent;
+	color: var(--primary-color);
+}
+
+.content {
+	display: grid;
+	grid-template-columns: 20% 80%;
+	gap: 2rem;
+	min-height: 100%;
+}
+
+.content_left {
+	grid-column: 1/2;
+	background-color: var(--white);
+	border-radius: 2rem;
+	padding: 3rem;
+
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	justify-content: space-between;
+}
+.content_left_profile_image {
+	height: 13rem;
+	width: 13rem;
+	fill: var(--primary-color);
+}
+.content_left_profile_name {
+	margin-top: 1rem;
+	font-size: 1.8rem;
+	font-weight: 700;
+}
+.content_left_profile_role {
+	font-size: 1.3rem;
+	color: var(--grey);
+	font-weight: 600;
+}
+.content_left_contacts {
+	margin-top: 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+.content_left_contact {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+}
+.content_left_contact_box {
+	border-radius: 1rem;
+	padding: 1rem;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.content_left_contact_box_red {
+	background-color: #fc6973;
+}
+.content_left_contact_box_blue {
+	background-color: #3ea5b2;
+}
+.content_left_contact_box_primary {
+	background-color: var(--primary-color);
+}
+.content_left_contact_box_icon {
+	height: 2rem;
+	width: 2rem;
+	fill: var(--white);
+}
+.content_left_contact_data {
+	line-height: 1.2;
+}
+.content_left_contact_data_title {
+	color: var(--grey);
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 1.1rem;
+}
+.content_left_contact_data_field {
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+.content_left_bottom {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	/* align-items: center; */
+}
+.userDetails__deatctivateButton {
+	align-self: center;
+	font-family: inherit;
+	font-size: 1.2rem;
+	font-weight: 600;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid var(--red);
+	color: var(--red);
+	cursor: pointer;
+}
+
+.content_right {
+	grid-column: 2/-1;
+	justify-self: start;
+
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	gap: 2rem;
+}
+.changePasswordSection {
+	/* background-image: linear-gradient(180deg, rgb(77, 10, 19) 0%, rgb(107, 3, 66) 100%); */
+	grid-column: 1/-1;
+	grid-row: 1/3;
+	background-color: var(--white);
+	border-radius: 2rem;
+	padding: 3rem;
+
+	display: flex;
+	gap: 3rem;
+	align-items: center;
+}
+.changePasswordSection_left {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+.changePasswordSection_right {
+	border-left: 1px solid var(--light-grey);
+	padding: 5rem 2rem;
+
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+.changePasswordSection_text {
+	font-size: 1.2rem;
+	color: var(--grey);
+	width: 25rem;
+}
+.changePasswordSection_heading {
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+.planDetailsSection {
+	grid-column: 1/2;
+	grid-row: 3/-1;
+	background-color: var(--white);
+	border-radius: 2rem; 
+	display: flex; 
+	justify-content: space-between;
+	flex-direction: row;
+    gap: 2rem;
+    justify-content: space-between;
+} 

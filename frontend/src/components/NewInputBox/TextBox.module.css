@@ -1,0 +1,71 @@
+.form_input {
+	display: flex;
+	flex-direction: column;
+	gap: .5rem;
+	align-items: flex-start;
+}
+
+.form_input__label {
+	color: var(--light-grey);
+	font-size: 1.2rem;
+}
+
+.form_input__container {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	background-color: var(--white);
+	border-radius: 1rem;
+	padding: 1rem 2rem;
+	padding-left: 1rem;
+	width: 25rem;
+}
+
+.form_input__icon {
+	height: 2rem;
+	width: 2rem;
+	fill: #ffffff !important;
+}
+
+.form_input__box {
+	font-family: inherit;
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+}
+
+.form_input__box::-webkit-input-placeholder {
+	color: var(--light-grey);
+}
+
+.form_input__error {
+	font-size: 1.2rem;
+	color: #ff3366;
+	width: 25rem;
+}
+
+
+.form_input_coupon_box::hover {
+	 border:none !important;
+}
+
+.form_input_coupon_box {
+	border:none !important;
+}
+
+
+@media (max-width: 809px) {
+	.form_input__container {
+		width: 100%;
+		margin-top:1rem;
+	} 
+}
+
+@media only screen and (min-width: 810px) and (max-width: 1080px) {
+	.form_input__container {
+		margin-right: 1rem;
+	}
+}

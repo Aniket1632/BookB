@@ -1,0 +1,14 @@
+.checkinList {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2rem 2.5rem;
+	background-color: var(--bg-primary);
+	margin: 1.5rem 2rem;
+	border-radius: 1.5rem;
+}
+.checkinList__text {
+	font-size: 1.3rem;
+	color: #e7e7ea;
+}

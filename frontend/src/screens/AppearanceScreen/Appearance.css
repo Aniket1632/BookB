@@ -1,0 +1,494 @@
+.screen-container{
+    width: 100%;
+    height: 90vh;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+
+.screen-container .footer_container{
+    position: relative !important;
+
+}
+
+.appearnce-button-container{
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    opacity: 0;
+    display: none;
+    gap: 0.8rem;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+}
+
+.appearance-btn2 input[type=file] {
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: pointer;
+    display: block;
+    width: 15px;
+    height: 15px;
+    
+}
+
+.appearance-btn2{
+    border: none;
+    background-color: transparent;
+    border: 0px solid var(--primary-color);
+    outline: none;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.4s;
+    color: #fff;
+    align-items: center;
+    position: relative;
+    background-image: linear-gradient(195deg, #42424a, #191919);
+}
+
+.table__button--icon2 {
+    height: 1.5rem;
+    width: 1.5rem;
+    fill: var(--pure-white);
+    position: absolute;
+    cursor: pointer;
+}
+
+.screen_header {
+    /* grid-row: 1 / 2; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 2rem 10rem;
+    /* position: fixed; */
+    width: 100%;
+    
+}
+
+.logo_website_screen img {
+    height: 5rem;
+    /* position: absolute; */
+}
+
+.logo_website_screen{
+    padding: 5px;
+    position: relative;
+    
+}
+
+.logo_website_screen:hover{
+    border: 1px dashed #000;
+}
+
+.logo_website_screen:hover .appearnce-button-container{
+    position: absolute;
+    right: -10px;
+    top: -15px;
+    opacity: 1;
+    display: flex;
+}
+
+.appearance-grid-container {
+    margin: 1rem 10rem;
+    display: grid;
+    grid-template-columns: 35% 63%;
+    grid-gap: 2rem;
+    /* position: absolute; */
+}
+.appearance-btn{
+    /* position: absolute;
+    right: -10px;
+    top: -10px;
+    opacity: 0;
+    display: none; */
+        border: none;
+        background-color: transparent;
+        border: 0px solid var(--primary-color);
+        outline: none;
+        padding: 0.7rem;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        transition: all 0.4s;
+        color: #fff;
+        align-items: center;
+        position: relative;
+        background-image: linear-gradient(195deg, #42424a, #191919);
+}
+
+
+
+.appearancescreen_banner {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* height: 60rem; */
+    margin-bottom: 2rem;
+    width: 100%;
+    background-color: #fff;
+}
+
+.appearancescreen_banner__subtitle {
+    margin-top: 5rem;
+    position: relative;  
+    
+}
+
+.appearancescreen_banner__subtitle h1{
+    font-weight: 600;
+    font-size: 5rem;
+}
+
+.appearancescreen_banner__subtitle:hover{
+    border: 1px dashed #000;
+}
+
+.appearancescreen_banner__subtitle:hover .appearnce-button-container{
+    position: absolute;
+    right: -10px;
+    top: -15px;
+    opacity: 1;
+    display: flex;
+}
+
+.appearancescreen_banner__desc {
+    width: 70%;
+    margin: 2rem 0;
+    position: relative;  
+}
+
+
+
+.appearancescreen_banner__desc:hover .appearnce-button-container{
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    opacity: 1;
+    display: flex;
+}
+
+.appearancescreen_banner__desc:hover{
+    border: 1px dashed #000;
+}
+
+.appearancescreen_banner__desc h1{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.appearance-list{
+    padding: 5px;
+    position: relative
+}
+
+.appearance-list:hover{
+    border:1px dashed #000;
+}
+
+.appearance-list:hover .appearance-btn{
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    opacity: 1;
+    display: flex;
+}
+
+.appearance_services {
+    text-align: center;
+    /* padding: 3rem 30rem; */
+    background-color: var(--light-grey2);
+}
+
+.our_appearance_services_outer {
+    display: flex;
+
+    gap: 3rem;
+    margin-top: 3rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.our_appearance_services_inner {
+    display: flex;
+    border-radius: 15px;
+    width: 322px;
+    padding: 2rem;
+    grid-gap: 2rem;
+    gap: 2rem;
+    flex-direction: column;
+    background-color: var(--pure-white);
+    box-shadow: var(--box-shadow1);
+}
+
+.our_appearance_services_inner:hover {
+    border: 1px dashed #000;
+    cursor: pointer;
+    position: relative;
+   }
+   .our_appearance_services_inner:hover > .our_services_logo {
+    background-color: black;
+    color: white;
+    transition: all .4s;
+   }
+
+   .our_appearance_services_inner:hover  .appearnce-button-container{
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    opacity: 1;
+    display: flex;
+}
+
+   .appearance_working_time {
+    display: flex;
+    margin: 5rem 14%;
+    box-shadow: var(--box-shadow1);
+    /* width: 100%; */
+    
+}
+
+.appperance_working_time_left{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 10rem 0;
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: var(--box-shadow1);
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--pure-white);
+}
+
+.appperance_working_time_left:hover{
+    border: 3px dashed #fff;
+    position: relative;
+    border-radius: 10px;
+}
+
+.appperance_working_time_left:hover .appearnce-button-container{
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    opacity: 1;
+    display: flex;
+}
+
+.appearance_working_time_heading h1{
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.our_services_appearance_subheading{
+    position: relative;
+}
+
+.appearance_working_time_heading{
+    position: relative;
+}
+
+.appearance_working_time_heading:hover{
+    border: 1px dashed #000;
+}
+
+.appearance_working_time_heading:hover .appearnce-button-container{
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    opacity: 1;
+    display: flex;
+}
+
+.our_services_appearance_subheading h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+    
+.our_services_appearance_subheading:hover{
+    border: 1px dashed #000;
+    padding: 5px;
+}
+
+
+.our_services_appearance_subheading:hover .appearnce-button-container{
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    opacity: 1;
+    display: flex;
+}
+
+.banner-image:hover{
+border: 1px dashed #000;
+}
+
+.banner-image{
+    position: relative;
+}
+
+.banner-image:hover .appearnce-button-container{
+    position: absolute;
+    right: -10px;
+    top: -15px;
+    opacity: 1;
+    display: flex;
+}
+
+
+.appearancescreen_banner__button{
+    padding: 10px;
+    position: relative;
+}
+
+.appearancescreen_banner__button:hover{
+    padding: 10px;
+    border: 1px dashed #000;
+}
+.appearancescreen_banner__button:hover .appearnce-button-container{
+    position: absolute;
+    right: -10px;
+    top: -15px;
+    opacity: 1;
+    display: flex;
+}
+
+
+.appearanceCardHeader{
+ position: relative;
+ color: white;
+ font-size: 1.8rem;
+ margin-bottom: 1rem;
+ text-align: center;
+}
+
+.appearanceCardHeader:hover{
+    border: 1px dashed #fff;
+}
+
+.appearanceCardHeader:hover .appearnce-button-container{
+    position: absolute;
+    right: -10px;
+    top: -15px;
+    opacity: 1;
+    display: flex;
+}
+
+.apperance_servies_heading h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.apperance_servies_heading{
+    position: relative;
+}
+
+.apperance_servies_heading:hover{
+    border: 1px dashed #000;
+}
+
+.apperance_servies_heading:hover .appearnce-button-container{
+    position: absolute;
+    right: -10px;
+    top: -15px;
+    opacity: 1;
+    display: flex;
+}
+
+.appearance_our_services_subheading1 p{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.appearance_our_services_subheading1{
+    position: relative;
+}
+
+.appearance_our_services_subheading1:hover{
+    border: 1px dashed #000;
+}
+
+.appearance_our_services_subheading1:hover .appearnce-button-container{
+    position: absolute;
+    right: -10px;
+    top: -15px;
+    opacity: 1;
+    display: flex;
+}
+
+.apperance_chat_subheading p{
+    font-size: 2rem;
+    padding-top: 2rem;
+    color: white;
+}
+
+
+
+.apperance_chat_subheading:hover{
+    border: 1px dashed #000;
+    position: relative;
+}
+
+
+.apperance_chat_subheading:hover .appearnce-button-container{
+    position: absolute;
+    right: -10px;
+    top: -15px;
+    opacity: 1;
+    display: flex;
+}
+
+
+.appearanceBarText{
+    position: relative;
+    color: white;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-align: center;
+   }
+
+   .appearanceBarText h1  {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+   
+   
+   .appearanceBarText:hover{
+       border: 1px dashed #fff;
+   }
+   
+   .appearanceBarText:hover .appearnce-button-container{
+       position: absolute;
+       right: -10px;
+       top: -15px;
+       opacity: 1;
+       display: flex;
+   }
+
+   .colorPallete{
+       position: absolute;
+       z-index: 500;
+       top: 8rem;
+   }
+
+   .colorPalletText h3{
+       font-size: 1.5rem;
+
+   }
+
+   .colorPalletText input{
+       width: 20rem;
+       height: 3rem;
+       border: 1px solid #ccc;
+       border-radius: 5px;
+       outline: none;
+       background-color: var(--light-grey2);
+       font-family: inherit;
+       padding: 4px;
+   }

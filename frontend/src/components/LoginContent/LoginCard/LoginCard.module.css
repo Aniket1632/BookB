@@ -1,0 +1,196 @@
+.loginCard {
+  width: 30%;
+  height: 100%;
+  padding: 2rem;
+  background-color: #1E1D1D;
+  position: absolute;
+  top: 1rem;
+  border-radius: 4rem;
+  left: 3rem;
+  overflow: auto;
+  box-shadow: -1rem 0rem 7rem -2rem rgb(42, 42, 42);
+}
+
+.bookbLogo {
+  display: flex;
+  justify-content: center;
+}
+
+.bookb_logo {
+  width: 18%;
+}
+
+.signIn_text {
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  font-weight: lighter;
+  margin-top: 1.4rem;
+  color: #ffffff;
+}
+
+.credential_text {
+  display: flex;
+  justify-content: center;
+  color: #6e6b7b;
+}
+
+.baseInput1 {
+  margin-top: 1.5rem;
+  width: 85%;
+}
+
+.baseInput {
+  display: flex;
+  box-shadow: 0rem 0.2rem 2rem -0.6rem black;
+  border: none;
+  width: 100%;
+  border-radius: 3rem;
+  color: white;
+  outline: none;
+  padding: 1.2rem 1rem;
+  justify-content: center;
+  margin-left: 2.8rem;
+  padding-right: 4rem;
+  background: none;
+}
+
+.account_register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.4rem;
+}
+
+.onlick_register {
+  color: #ff9000;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+.copyright_section {
+  color: white;
+  justify-content: end;
+}
+
+.copyright_section span {
+  color: white;
+}
+
+.baseButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.bookb {
+  color: #6e6b7b;
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.powered_by {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.onlcik_the_algorithm {
+  color: #ff9000;
+  text-decoration: none;
+}
+
+@media (max-width: 809px) {
+  .credential_text {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 1.1rem;
+  }
+
+  .baseInput{
+    margin-left: 0rem;
+  }
+
+  .baseInput1 {
+    margin-top: 3rem;
+    width: 100%;
+  }
+
+  .account_register {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+  }
+
+  .baseButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+  }
+
+  .bookb {
+    color: #6e6b7b;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .loginCard {
+    width: 85%;
+    padding: 2rem;
+    overflow: auto;
+    background-color: #1E1D1D;
+    position: absolute;
+    top: 3rem;
+    border-radius: 4rem;
+    left: 3rem;
+    box-shadow: -1rem 0rem 7rem -2rem;
+  }
+}
+
+@media only screen and (min-width: 810px) and (max-width: 1080px) {
+  .loginCard {
+    width: 42%;
+    padding: 2rem;
+    background-color: #1E1D1D;
+    position: absolute;
+    top: 3rem;
+    overflow: auto;
+    border-radius: 4rem;
+    left: 3rem;
+    box-shadow: -1rem 0rem 7rem -2rem;
+  }
+
+  .baseInput1 {
+    margin-top: 3rem;
+    width: 100%;
+  }
+
+  .bookb_logo {
+    width: 25%;
+    margin-top: 10rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 1700px) {
+  .credential_text {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 1.4rem;
+  }
+  .copyright_section {
+    color: white;
+    margin-top: 2rem;
+  }
+  .loginCard {
+    height: 95%;
+  }
+}
+
+@media only screen and (min-width: 1701px) {
+
+}

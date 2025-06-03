@@ -1,0 +1,51 @@
+import express from 'express';
+import userRouter from './v1/user.routes.js';
+import salonRouter from './v1/salon.routes.js';
+import stylistRouter from './v1/stylist.routes.js';
+import attendanceRouter from './v1/attendance.routes.js';
+import videoRouter from './v1/video.routes.js';
+import productRouter from './v1/product.routes.js';
+import salonStaffRouter from './v1/salon-staff.routes.js'; 
+import session from './v1/session.routes.js';
+import version from './v1/version.routes.js';
+import generic from './v1/generic.routes.js';
+import report from './v1/report.routes.js';
+
+import service from './v1/service.routes.js';
+import notification from './v1/notification.routes.js';
+import appointmentAvailability from './v1/appointment-availability.routes.js';
+import appointment from './v1/appointment.routes.js';
+import appointmentPublic from './v1/appointment-public.routes.js';
+import servicePhoto from './v1/service-photo.routes.js';
+import website from './v1/website-setting.routes.js';
+import coupon from './v1/coupon.routes.js'; 
+import subscriptionPlan from './v1/subscription-plan.routes.js';
+import promoCode from './v1/promoCode.routes.js'; 
+import appSetting from './v1/app-setting.routes.js';
+
+const router = express.Router();
+
+router.use('/users', userRouter);
+router.use('/salon', salonRouter);
+router.use('/stylist', stylistRouter);
+router.use('/attendance', attendanceRouter);
+router.use('/video', videoRouter);
+router.use('/product', productRouter);
+router.use('/salon-staff', salonStaffRouter); 
+router.use('/session', session);
+router.use('/version', version);
+router.use('/generic', generic);
+router.use('/report', report);
+router.use('/service', service);
+router.use('/notification', notification);
+router.use('/appointment-availability', appointmentAvailability);
+router.use('/appointment', appointment);
+router.use('/public/appointment', appointmentPublic);
+router.use('/service-photo', servicePhoto);
+router.use('/website', website);
+router.use('/coupon', coupon);
+router.use('/plan', subscriptionPlan);
+router.use('/promo-codes', promoCode);
+router.use('/app', appSetting);
+
+export default router;

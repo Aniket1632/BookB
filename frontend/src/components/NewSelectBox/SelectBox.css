@@ -1,0 +1,96 @@
+.textBox {
+ position: relative;
+ /* background-color: black; */
+}
+
+.form_input__error {
+ font-size: 1.2rem;
+ color: var(--red);
+}
+
+.textBox__label {
+ position: absolute;
+ top: -0.5rem;
+ left: 0;
+ z-index: 10;
+ display: flex;
+ padding-top: 2.3rem;
+}
+
+.textBox__label__icon {
+ height: 2.5rem;
+ width: 2.5rem;
+ fill: #ffffff;
+}
+
+.textBox__input {
+ /* background-color: #353434b5; */
+ /* border-radius: 0.5rem; */
+ overflow: hidden;
+ width: 25rem;
+ display: flex;
+ padding-right: 1rem;
+ border-bottom: 1px solid var(--light-grey);
+}   
+
+.textBox__input__box {
+ width: 100%;
+ margin-left: 5rem;
+ /* background-color: blue; */
+ font-family: inherit;
+ border: none;
+ outline: none;
+ padding: 1rem 1rem;
+ /* color: #ffffff; */
+}
+.textBox__input__box option {
+ background-color: #333;
+ border: none;
+ /* border-color: #a1a1a1; */
+ outline: none;
+}
+
+.textBox__input--show {
+ margin-right: 1rem;
+ border: none;
+ background-color: transparent;
+ cursor: pointer;
+}
+
+.textBox__input--show:hover .textBox__input--showIcon {
+ fill: #ff3366;
+}
+
+.textBox__input--showIcon {
+ height: 2rem;
+ width: 2rem;
+ fill: var(--dark-grey);
+ transition: all 0.4s;
+}
+
+.form_input {
+ display: flex;
+ flex-direction: column;
+ gap: 0.5rem;
+ align-items: flex-start;
+ padding-left: 1rem;
+ /* padding-top: 1rem; */
+}
+
+.form_input__label {
+ color: #ffffff;
+ font-size: 1.2rem;
+ font-size: 14px;
+ margin-top: 1rem;
+}
+
+.css-1pndypt-Input input{
+    opacity: 1 !important;
+}
+.css-vwja0k input{
+    opacity: 1 !important;
+}
+
+.textBox__input{
+    
+}

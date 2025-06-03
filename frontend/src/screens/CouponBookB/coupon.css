@@ -1,0 +1,136 @@
+.main--card__Container {
+    /* background-color: red; */
+    /* background-color: var(--bg-secondary); */
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.single__discountCard {
+    /* background-color: var(--pure-white); */
+    background-color:   #121212;
+    width: 18vw;
+    min-height: 15vh;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow1);
+}
+
+.card--coupons {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 1rem; */
+}
+
+.card--coupons h1 {
+    font-size: 30px;
+    color: var(--pure-white);
+}
+
+.card--coupons p {
+    font-size: 14px;
+    color: var(--yellow);
+    font-weight: 400;
+}
+
+.card--coupons h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--pure-white)
+}
+
+.coupon--card_bottom {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coupon--edit_delete {
+    display: flex;
+    gap: 1rem;
+    fill: var(--pure-white);
+}
+
+.cardCouponIcon__button {
+    background-color: transparent;
+    border: none;
+    border: 0px solid var(--primary-color);
+    outline: none;
+    padding: .7rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.4s;
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* background-image: linear-gradient(195deg, #42424a, #191919); */
+}
+
+.cardCouponIcon__button span {
+    display: none;
+    font-size: 1rem;
+    color: var(--pure-white);
+    background-color: var(--black);
+    padding: 0.5rem 1rem;
+    border-radius: 10rem;
+    position: absolute;
+    top: -2rem;
+    /* left: 0; */
+    /* transform: translate(-50%, -50%); */
+    transition: all 1s;
+    right: 1rem;
+    z-index: 1000;
+}
+
+.cardCouponIcon__button:hover span {
+    display: block;
+}
+
+.cardCouponIcon__button:hover {
+    background-color: var(--primary-color);
+    border: 0px solid var(--primary-color);
+}
+
+.edit--coupon_icon {
+    height: 2rem;
+    width: 2rem;
+    fill: var(--pure-white);
+}
+
+.cardCoupon--icon-red {
+    height: 2rem;
+    width: 2rem;
+    fill: var(--pure-white);
+}
+
+/* Modal Styles */
+
+.delete--modal--text {
+    font-size: 12px;
+    padding-bottom: 1rem;
+    color : var(--pure-white)
+}
+
+@media (max-width: 809px) {
+
+    .single__discountCard{
+        width: 46vw;
+    }
+
+    .card--coupons h1{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 810px) and (max-width: 1080px) {
+	.main--card__Container{
+		gap: 3rem;
+    padding-left: 2rem;
+	}
+
+	.single__discountCard{
+	width: 30vw;
+	}
+}

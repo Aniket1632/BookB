@@ -1,0 +1,52 @@
+.content {
+	display: flex;
+	gap: 2rem;
+	align-items: flex-start;
+}
+.prevNotifications {
+	background-color: #ffffff;
+	border-radius: 2rem;
+	padding: 2rem;
+	display: flex;
+	gap: 1rem;
+	flex-direction: column;
+	width: 50%;
+}
+.prevNotificationsHeading {
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+.prevNotification {
+	background-color: #ececec;
+	border-radius: 2rem;
+	padding: 1rem 1.5rem;
+}
+.prevNotificationTitle {
+	font-size: 1.3rem;
+	font-weight: 600;
+}
+.prevNotificationSubTitle {
+	font-size: 1.1rem;
+	font-weight: 500;
+	color: #8b8b8b;
+}
+.prevNotificationTime {
+	font-size: 1rem;
+	font-weight: 600;
+	color: #007c6e;
+	margin-top: 1rem;
+}
+@media all and (min-width: 810px) and (max-width: 1080px) {
+	.content{
+		flex-direction: column;
+	}
+	.prevNotifications{
+		width: 100%;
+	}
+}
+
+@media (max-width: 811px) {
+    .content{
+		flex-direction: column;
+	}
+}

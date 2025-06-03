@@ -1,0 +1,44 @@
+.screenCards {
+	margin-top: 2rem;
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+}
+.flex{
+	display: flex;
+	gap: .5rem;
+	/* align-items: center; */
+	flex-direction: column;
+	width: 400px;
+}
+.screenCard {
+	/* background-color: #ececec; */
+	background-color:#121212;
+	border-radius: 2rem;
+	padding: 2rem 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.screenCardTitle {
+	margin-bottom: 2rem;
+	font-size: 1.5rem;
+	font-weight: 600;
+	color : var(--white)
+}
+@media only screen and (min-width: 810px) and (max-width: 1080px) {
+	.screenCards{
+		width: 200px;
+	}
+	.flex{
+		flex-direction: row;
+	}
+	
+}
+
+@media (min-width: 809px) {
+    .screenCards{
+		width: 400px;
+	}
+	
+}

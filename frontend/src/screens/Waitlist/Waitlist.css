@@ -1,0 +1,45 @@
+.waitlist__table__button--second {
+ text-decoration: none;
+ color: var(--dark-grey);
+ border: 1px solid var(--dark-grey);
+ border-radius: 5rem;
+ font-size: 1.1rem;
+ cursor: pointer;
+ transition: all 0.4s;
+ min-width: 10rem;
+ text-align: center;
+ padding: 0.5rem;
+}
+
+.waitlist--statusContainer {
+ background-color: transparent;
+ outline: none;
+ border: none;
+}
+.editWaitlist--timeslot {
+ display: flex;
+ align-items: center;
+ gap: 2rem;
+}
+.waitlisttableContainer {
+ margin: 1rem;
+ /* background-color: var(--pure-white); */
+ border-radius: 1rem;
+ box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
+ height: 35vh;
+ overflow-y: auto;
+ overflow-x: auto;
+}
+.selectBox {
+ font-family: inherit;
+ border: none;
+ outline: none;
+ background-color: var(--primary-color);
+ color: var(--black);
+ padding: 0.5rem 1rem;
+ border-radius: 0.5rem;
+}
+
+/* .header{
+    background-color: black;
+} */

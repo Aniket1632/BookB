@@ -1,0 +1,130 @@
+.login_container {
+	grid-column: 1 / -1;
+	grid-row: 1 / -1;
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y: 50%;
+
+	display: flex;
+	justify-content: center;
+}
+
+.login_container__form {
+	background-color: #fff;
+	box-shadow: var(--box-shadow1);
+	padding: 3rem 5rem;
+	display: flex;
+	gap: 1rem;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #6e6b7b;
+	border: 1px solid #d8d6de;
+	-webkit-transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+	transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+}
+
+.login_container__logo {
+	height: 10rem;
+}
+
+.login_container__heading {
+	color: #6e6b7b;
+	font-weight: 200;
+	font-size: 3rem;
+	text-align: center;
+}
+
+.login_container__subheading {
+	color: #6e6b7b;
+	font-weight: 500;
+	font-size: 1.3rem;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+
+
+.login_container_side_image {
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	max-width: 100%; 
+	height: 100%;
+    width: 82%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+
+.login__copyright {
+	margin-top: 2rem;
+}
+.login__copyright-text {
+	text-align: center;
+	font-size: 1.1rem;
+	font-weight: 500;
+	color: var(--light-grey);
+}
+.login__copyright-text a {
+	text-decoration: none;
+	color: var(--primary-color);
+	font-weight: 600;
+}
+
+.login-register{
+	text-decoration: none;
+	color: var(--primary-color);
+	font-size: 1.5rem;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.login__register {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+@media screen and (max-width:500px) {
+	.login_container_side_image{
+		display: none;
+	}
+}
+
+@media (max-width:920px) {
+	.content {
+		margin-top: 3.5rem;
+		height: 85vh;
+		overflow-y: auto;
+		overflow-x: hidden;
+		padding-left: 4rem;
+		padding-right: 4rem;
+		padding-bottom: 3rem;
+		padding-top: 1rem;
+		display: flex;
+		grid-gap: 2rem;
+		gap: 2rem;
+		flex-direction: column;
+	}
+
+
+	.appointment_box {
+		width: 100% !important;
+		height: 100% !important;
+		border-radius: 1rem;
+		background-color: #000000;
+		padding: 20px;
+		display: flex;
+		flex-direction: column;
+		grid-gap: 2rem;
+		gap: 2rem;
+		/* height: 80vh; */
+		overflow-y: initial !important;
+	}
+}

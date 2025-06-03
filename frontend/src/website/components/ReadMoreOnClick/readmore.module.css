@@ -1,0 +1,9 @@
+    .text {
+        display: inline;
+        width: 100%;
+    }
+
+    .readorhide {
+        color: var(--primary-color);
+        cursor: pointer;
+    }

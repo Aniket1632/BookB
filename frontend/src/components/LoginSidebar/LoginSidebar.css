@@ -1,0 +1,61 @@
+.navigationLoginSidebar {
+	grid-column: 1 / 2;
+	padding-top: 2rem;
+	position: fixed;
+	width: 100%;
+	height: 98vh;
+	z-index: 9999;
+	transition: all 0.5s;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	transition: all .4s;
+	border-radius: 12px;
+	box-shadow: 0 20px 27px rgb(0 0 0 / 5%);
+	margin: 1rem;
+	padding: 1rem;
+	top: 0rem;
+	overflow: hidden;
+	background: linear-gradient(to bottom, #ffffffd6 0%, rgb(255 255 255) 10%);
+	background-size: 150% 150%;
+	left: 75%;
+}
+
+
+.navigationLoginSidebar::-webkit-scrollbar {
+	width: .5rem;
+	height: .5rem;
+}
+
+.navigationLoginSidebar::-webkit-scrollbar-track-piece {
+	background-color: var(--bg-secondary);
+}
+
+.navigationLoginSidebar::-webkit-scrollbar-thumb {
+	background-color: var(--light-grey);
+}
+
+.navigationLoginSidebar.active {
+	width: 0rem;
+	display: none;
+	transition: all 0.5s ease;
+}
+
+
+.navigationLoginSidebarIcon {
+	display: flex;
+	align-items: center;
+	grid-gap: 1.2rem;
+	gap: 1.2rem;
+	background: transparent;
+	border: 0px;
+	cursor: pointer;
+}
+
+
+.navigationLoginSidebarIcon--icon {
+	height: 2rem;
+	width: 2rem;
+	fill: black;
+	cursor: pointer;
+}

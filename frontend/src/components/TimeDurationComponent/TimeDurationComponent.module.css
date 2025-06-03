@@ -1,0 +1,43 @@
+.timeComponent{
+    display: flex;
+    align-items: center;
+}
+
+.timeDurationLabel{
+    display: flex;
+    margin-left: 2rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.start_time{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    width: 90%;
+    outline: none;
+    border-bottom: 1px solid #323232;
+    padding-left: 1.4rem;
+
+}
+
+.end_time{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    /* width: 50%; */
+    outline: none;
+    border-bottom: 1px solid #323232;
+    padding-left: 1.4rem;
+    margin-left: 3rem;
+}
+
+.inputLabel{
+    width: 10rem;
+}
+
+@media (max-width: 809px) {
+    .timeComponent span{
+        font-size: 1rem;
+    }
+}

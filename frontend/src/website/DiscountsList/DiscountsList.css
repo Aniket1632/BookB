@@ -1,0 +1,54 @@
+    .discount_main_container {
+        display: flex;
+        grid-gap: 2rem;
+        gap: 2rem;
+        flex-wrap: wrap;
+        margin: 5rem 30rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .couponCard {
+        background-color: var(--pure-white);
+        width: 18vw;
+        min-height: 15vh;
+        border-radius: 10px;
+        box-shadow: var(--box-shadow1);
+        border: 2px dashed #d5d5d5;
+        padding: 25px 30px 30px;
+        align-items: center;
+        width: 18vw;
+        min-height: 15vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .couponCard h1 {
+        font-size: 30px;
+    }
+
+    .couponCard p {
+        font-size: 14px;
+        color: var(--yellow);
+        font-weight: 400;
+    }
+
+    .couponCard h4 {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+
+    @media screen and (max-width:900px) {
+        .discount_main_container {
+            margin: 2rem 0rem;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .couponCard {
+            margin: 1rem;
+            width: 100%;
+        }
+    }

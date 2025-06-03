@@ -1,0 +1,22 @@
+
+.chartContentHeader {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	justify-content: space-between;
+}
+
+
+.textBoxInput{
+    background-color:#fff;
+}
+
+.textBoxInputBox{
+    background-color:#fff;
+}
+
+
+.form_input__label {
+	color: var(--light-grey);
+	font-size: 1.2rem;
+}

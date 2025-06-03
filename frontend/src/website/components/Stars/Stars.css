@@ -1,0 +1,26 @@
+.cart--icon--star {
+    fill: var(--gold);
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.stars ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+
+.stars ul li {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.stars ul li.selected {
+    opacity: 1;
+    color: #ff9000;
+}
+
+.stars ul .container {
+    text-align: center;
+}

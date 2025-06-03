@@ -1,0 +1,22 @@
+
+.product_discount_heading {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+
+/*mobile view*/
+@media (max-width: 768px) {
+	.products_discount {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        margin-top: 7.5rem;
+    }
+
+    .product_discount_heading {
+        font-size: 1.4rem;
+        text-align: center;
+        justify-content: center;
+    }
+}

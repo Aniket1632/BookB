@@ -1,0 +1,211 @@
+.muscleType {
+	display: flex;
+	gap: 1rem;
+	align-items: flex-end;
+}
+
+.muscleTypeGoBtn {
+	font-family: inherit;
+	border: none;
+	border-radius: .5rem;
+	color: #e7e7ea;
+	display: flex;
+	align-items: center;
+	gap: .5rem;
+	background-color: #ff9000;
+	padding: .9rem;
+	cursor: pointer;
+}
+
+.muscleTypeGoBtnIcon {
+	height: 2rem;
+	width: 2rem;
+	fill: #e7e7ea;
+}
+
+
+.muscleTypeGoBtn,
+.muscleTypeEditBtn {
+	font-family: inherit;
+	border: none;
+	border-radius: .5rem;
+	cursor: pointer;
+	color: #e7e7ea;
+	display: flex;
+	align-items: center;
+	gap: .5rem;
+	padding: 0.9rem;
+}
+
+.muscleTypeEditBtn {
+	background-color: #09baa6;
+}
+
+.muscleTypeEditBtnIcon {
+	height: 1.5rem;
+	width: 1.5rem;
+	fill: #e7e7ea;
+}
+
+/* Round Cards */
+.roundCards {
+	display: flex;
+	gap: 2rem;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 2rem;
+}
+
+.roundCard {
+	background-color: #ffffff;
+	border-radius: 2rem;
+	padding: 2rem;
+
+	display: flex;
+	flex-direction: column;
+	gap: .5rem;
+}
+
+.roundCardHeading {
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+
+
+.templates {
+	display: flex;
+	align-items: center;
+	grid-gap: 2rem;
+	gap: 2rem;
+	flex-wrap: wrap;
+}
+.template {
+	display: flex;
+	flex-direction: column;
+	grid-gap: 2rem;
+	gap: 2rem;
+	align-items: center;
+	justify-content: center;
+	border-radius: 2rem;
+	text-decoration: none;
+	color: #000000;
+	width: 22rem;
+	transition: all .4s;
+}
+.template:hover {
+	transform: scale(1.03);
+}
+.templateData {
+	display: flex;
+	flex-direction: column;
+	gap: .5rem; 
+	height: 25rem;
+	width: 28rem;
+	background-color: #ffffff;
+	border-radius: 2rem;
+	padding: 2rem 3rem;
+}
+.templateImage {
+	padding: 2rem;
+	border-radius: 50%;
+	background-color: #ff9000;
+	display: flex;
+	align-items: center;
+}
+.templateImageIcon {
+	height: 4rem;
+	width: 4rem;
+	fill: #e7e7ea;
+}
+.templateName {
+	font-size: 1.4rem;
+	font-weight: 600;
+	text-align: center;
+}
+.templateButtonIcon {
+	height: 3rem;
+	width: 3rem;
+}
+.templateBar {
+	height: .5rem;
+	margin: 1.5rem 1rem;
+	width: 26rem;
+	background-color: #ff9000;
+}
+
+.templateCardActions {
+	border-top: 1px solid #e7e7ea;
+	width: 100%;
+	margin-top: 1.5rem;
+	padding-top: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: auto;
+}
+
+.templateCardActionBtn {
+	display: flex;
+	align-items: center;
+	gap: .5rem;
+}
+
+.templateCardAction {
+	background-color: transparent;
+	border: 1px solid #12151a;
+	padding: .6rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	transition: all .4s;
+	cursor: pointer;
+}
+.templateCardActionIcon {
+	height: 1.2rem;
+	width: 1.2rem;
+	fill: #12151a;
+	transition: all .4s;
+}
+.templateCardAction:hover {
+	background-color: #12151a;
+	border: 1px solid #12151a;
+}
+.templateCardAction:hover .templateCardActionIcon {
+	fill: #ffffff;
+}
+
+.roundCardExercise {
+	display: flex;
+	gap: 3rem;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+.roundCardExerciseName {
+	font-style: italic;
+}
+.roundCardRepType {
+	font-size: 1.3rem;
+	font-weight: 600;
+}
+.roundCardRepType2 {
+	font-size: 1.1rem;
+	font-weight: 600;
+}
+.roundCardNote {
+	font-size: 1.1rem;
+	font-weight: 600;
+}
+.roundCardNextRound {
+	color: #09baa6;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+.roundDetail{
+	height: 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}

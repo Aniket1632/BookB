@@ -1,0 +1,89 @@
+.content{
+    display: flex;
+    width: 50%;
+    outline: none;
+    padding: 0.8rem 1rem;
+    justify-content: center;
+}
+
+.textarea_content{
+    width: 60%;
+    outline: none;
+    padding: 1.2rem 1rem;
+    justify-content: center;
+}
+
+.textarea_box{
+    outline: none;
+    margin-top: 1rem;
+    align-items: center;
+    border: 1px solid #323232;
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    color: #fff;
+    background-color: transparent;
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+
+.title{
+    font-size: 1.4rem;
+    font-weight: 600;
+    width: 10rem;
+}
+
+.input_box{
+        width: 100%;
+        outline: none;
+        margin-left: 1.2rem;
+        align-items: center;
+        border: none;
+        display: flex;
+        color: #fff;
+        background-color: transparent;
+        border-bottom: 1px solid #323232;
+        font-size: 1.3rem;
+        flex:1
+}
+
+.input_wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.country_code {
+    margin-right: 2px; 
+}
+
+.errorMessage{
+        color: red;
+        margin-left: 1rem;
+}
+
+@media (max-width: 712px) {
+
+    .content{
+    width: 100%;
+    display: block;
+       
+    }
+    .title{
+        font-size: 1rem;
+    }
+
+    .input_box{
+        margin-top: 1rem;
+        margin-left: 0rem;
+    }
+}
+
+@media only screen and (min-width: 810px) and (max-width: 1080px) {
+
+    .content{
+width: 60%;
+display: flex;
+    justify-content: flex-start;
+    }
+
+}

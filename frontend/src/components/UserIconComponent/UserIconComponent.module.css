@@ -1,0 +1,42 @@
+.edit_profile {
+  margin-top: -10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon_my_profile {
+  left: 24.6rem;
+  width: 20rem;
+}
+
+.edit_form {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.icon_edit {
+  fill: #fff;
+  width: 1.6rem;
+  height: 1.6rem;
+  cursor: pointer;
+}
+
+.edit_text {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 809px) {
+  .edit_text {
+    font-size: 1rem;
+  }
+
+  .icon_edit {
+    width: 1.2rem;
+  }
+
+}

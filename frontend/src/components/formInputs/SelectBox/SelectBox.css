@@ -1,0 +1,123 @@
+.textBox {
+	position: relative;
+}
+
+.form_input__error {
+	font-size: 1.2rem;
+	color: var(--red);
+}
+
+.css-166bipr-Input::after {
+	visibility: visible !important;
+	color: #fff !important;
+}
+
+.textBox__labels {
+	position: absolute;
+	/* top: -0.5rem; */
+	left: 0;
+	z-index: 10;
+	display: flex;
+	/* padding-top: 3rem; */
+	padding-left: 1.3rem;
+}
+
+.textBox__label--icon {
+	height: 2.0rem;
+	width: 2.0rem;
+	fill:  var(--light-grey);
+	margin-top: 10px;
+}
+
+.textBox__input {
+	/* background-color: #333; */
+	/* border-radius: 0.5rem; */
+	/* overflow: hidden; */
+	width: 25rem;
+	display: flex;
+	/* padding-right: 1rem; */
+	border-bottom: 1px solid var(--light-grey);
+	/* margin-top: 1rem; */
+}
+.textBox__input1 {
+	/* background-color: #333; */
+	/* border-radius: 0.5rem; */
+	overflow: hidden;
+	width: 25rem;
+	display: flex;
+	padding-right: 1rem;
+	border-bottom: 1px solid var(--light-grey);
+	margin-top: 2.4rem;
+}
+.textBox__inputs {
+	/* background-color: #333; */
+	/* border-radius: 0.5rem; */
+	overflow: hidden;
+	width: 25rem;
+	display: flex;
+	padding-right: 1rem;
+	/* border-bottom: 1px solid var(--light-grey); */
+	margin-top: 1rem;
+}
+.textBox__input--box {
+	width: 100%;
+	margin-left: 5rem;
+	background-color: transparent;
+	font-family: inherit;
+	border: none;
+	outline: none;
+	padding: 0.6rem;
+	color: #fff;
+}
+.textBox__input--box option {
+	background-color: #333;
+	border: none;
+	border-color: var(--dark-grey);
+}
+
+.textBox__input--show {
+	margin-right: 1rem;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.textBox__input--show:hover .textBox__input--showIcon {
+	fill: #ff3366;
+}
+
+.textBox__input--showIcon {
+	height: 2rem;
+	width: 2rem;
+	fill: var(--dark-grey);
+	transition: all 0.4s;
+}
+
+.form_input {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	align-items: flex-start;
+}
+
+.form_input__label {
+	color: var(--light-grey);
+	font-size: 1.2rem;
+	margin:0.5rem,;
+	color: #fff
+	/* padding-top: 0.3rem; */
+	/* padding-left: 1rem; */
+}
+
+.css-1pndypt-Input input {
+	opacity: 1 !important;
+}
+.css-vwja0k input {
+	opacity: 1 !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .form_input {
+    min-width: 9rem;
+  }
+}

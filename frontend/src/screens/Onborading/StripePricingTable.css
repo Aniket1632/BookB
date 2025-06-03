@@ -1,0 +1,14 @@
+/* StripePricingTable.css */
+.custom-pricing-table {
+    /* Styles for the container element */
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  /* Example of overriding styles if possible */
+  .stripe-pricing-table .PricingTable {
+    background: red;
+    /* Ensure the Pricing Table is styled correctly */
+  }
+  

@@ -1,0 +1,38 @@
+.paragraphText {
+	font-size: 1.5rem;
+}
+
+.agreementImage {
+	max-width: 500rem;
+}
+
+.signDataAddBtn {
+	margin-top: .5rem;
+	background-color: transparent;
+	border: none;
+	font-family: inherit;
+	font-size: 1.1rem;
+	color: var(--primary-color);
+	font-weight: 500;
+	background-color: transparent;
+	border: 1px solid var(--primary-color);
+	padding: .2rem 1rem;
+	border-radius: 1rem;
+	cursor: pointer;
+	height: 3rem;
+	display: flex;
+	align-items: center;
+	transition: all .4s;
+}
+
+.signDataAddBtnIcon {
+	height: 1rem;
+	width: 1rem;
+	fill: var(--white);
+}
+
+.signDataAddBtn:hover {
+	background-color: var(--primary-color);
+	border: 1px solid var(--primary-color);
+	color: var(--black);
+}
